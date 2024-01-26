@@ -500,6 +500,7 @@ section {
 .card img {
     width: 30vw;
     border-radius: 2rem;
+    aspect-ratio: 3/2;
 }
 
 .contact {
