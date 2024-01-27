@@ -223,11 +223,11 @@ section {
 
 .bar {
     font-size: 30px;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .Technical-bars .bar {
-    margin-top: 20px 0;
+    margin-top: 20px;
 }
 
 .Technical-bars .bar:first-child {
@@ -235,11 +235,11 @@ section {
 }
 
 .Technical-bars .bar:last-child {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 .Technical-bars .bar .info {
-    margin-bottom: -5px;
+    margin-bottom: 5px;
 }
 
 .Technical-bars .bar .info span {
@@ -276,20 +276,23 @@ section {
     transform-origin: left;
 }
 
-.progress-line.html span {
-    width: 90%;
+.progress-line.react span {
+    width: 80%;
 }
-.progress-line.css span {
-    width: 75%;
+.progress-line.node span {
+    width: 60%;
 }
-.progress-line.javascript span {
+.progress-line.mongodb span {
     width: 70%;
 }
-.progress-line.cpp span {
+.progress-line.css span {
+    width: 90%;
+}
+.progress-line.javascript span {
     width: 85%;
 }
-.progress-line.react span {
-    width: 60%;
+.progress-line.cpp span {
+    width: 75%;
 }
 
 .progress-line span::after {
@@ -305,21 +308,25 @@ section {
     opacity: 0;
 }
 
-.progress-line.html span::after {
-    content: "90%";
-}
-.progress-line.css span::after {
-    content: "75%";
-}
-.progress-line.javascript span::after {
-    content: "70%";
-}
-.progress-line.cpp span::after {
-    content: "85%";
-}
 .progress-line.react span::after {
+    content: "80%";
+}
+.progress-line.node span::after {
     content: "60%";
 }
+.progress-line.mongodb span::after {
+    content: "70%";
+}
+.progress-line.css span::after {
+    content: "90%";
+}
+.progress-line.javascript span::after {
+    content: "85%";
+}
+.progress-line.cpp span::after {
+    content: "75%";
+}
+
 
 .progress-line span::before {
     content: "";
@@ -445,7 +452,7 @@ section {
 }
 
 .project {
-    margin-top: 15%;
+    margin-top: 25%;
     background: #1f242d;
     padding: 2% 0;
 }
@@ -630,9 +637,9 @@ footer {
         font-size: 30px;
     }
 
-    .home-sci a {
-        margin-left: 8px;
-        margin-right: 5px;
+    .home-sci  {
+        display: flex;
+        justify-content: center;
     }
     
     .btn-box {
@@ -687,6 +694,10 @@ footer {
 
     .container1 {
         margin-left: 0;
+    }
+
+    .container2 {
+        margin-top: 50%;
     }
 
     .heading1 {
